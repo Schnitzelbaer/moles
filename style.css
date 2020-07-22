@@ -1,0 +1,59 @@
+html, body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.button {
+  background-color: #53B2B9; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+  float: left;
+}
+
+button:first-child {
+  margin-left: 0px;
+}
+
+video {
+  position: absolute;
+  width: 100vw !important;
+  height: auto !important;
+  max-width: 1070px;
+  z-index: 1000;
+}
+
+#defaultCanvas0 {
+  position: absolute;
+  width: 100vw !important;
+  height: auto !important;
+  max-width: 1070px;
+  z-index: 999;
+}
+
+#analysis {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 30vh;
+  z-index: 1;
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+}
+
+p {
+  font-size: 26px;
+  color: #53B2B9;
+}
